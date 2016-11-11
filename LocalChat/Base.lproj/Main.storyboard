@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kWj-wM-yGz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tfS-Xz-w6L">
+            <objects>
+                <navigationController id="kWj-wM-yGz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NsH-sK-ZNd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zyE-o1-VWI" kind="relationship" relationship="rootViewController" id="KeM-oy-C1n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euy-oL-9zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1570" y="669"/>
+        </scene>
+        <!--LocalChat-->
+        <scene sceneID="yKQ-Y1-uY5">
+            <objects>
+                <viewController id="zyE-o1-VWI" customClass="ChatViewController" customModule="LocalChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jSR-vI-oX1"/>
+                        <viewControllerLayoutGuide type="bottom" id="d85-E2-gzL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g9d-ya-m16">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="LocalChat" id="ad8-04-lF6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8zo-5G-U5A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-601" y="669"/>
+        </scene>
+    </scenes>
+</document>
