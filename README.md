@@ -5,4 +5,4 @@ Teaches you the core concept of multipeer connectivity.First github project so y
 
 I'm a 12 year old ios app developer if you would like to donate please donate my paypal
 
-[PAYPAL](paypal.me/githubDonate)
+[PAYPAL](http://paypal.me/githubDonate)
