@@ -3,7 +3,6 @@
 //  LocalChat
 //
 //  Created by JAMES IKELER on 11/9/16.
-//  Copyright © 2016 JAMES IKELER. All rights reserved.
 //
 
 
