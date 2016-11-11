@@ -3,6 +3,7 @@
 //  LocalChat
 //
 //  Created by JAMES IKELER on 11/9/16.
+//  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
 
